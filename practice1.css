@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*------------body----------------*/
+body {
+  width: 950px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+
+/*------------./wrapper----------------*/
+div .wrapper {
+  width: 950px;
+  background-color: #fff;
+  display: inline;
+}
+
+
+
+
+/*------------header----------------*/
+header {
+  position: fixed;
+  text-align: center;
+  width: 950px;
+  background-color: #fff;
+  height: 70px;
+}
+
+
+
+
+/*------------h1----------------*/
+h1 {
+  text-align: center;
+  font-size: 25px;
+  color: #000;
+  text-decoration: none;
+  width: 950px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+h1 a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*------------h2----------------*/
+
+h2 {
+  margin: 30px;
+}
+
+/*------------div----------------*/
+
+
+/*------------nav----------------*/
+nav {
+
+  position: fixed;
+  text-align: center;
+  width: 950px;
+  clear: both;
+  background-color: #fff;
+  margin-top: 70px;
+  margin-left: 0;
+}
+
+
+
+#nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+
+#nav li {
+  width: 950px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+
+
+#nav li a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+#nav li a:hover {
+  font-weight: bold;
+}
+
+
+/*------------topimg----------------*/
+.topimage {
+  width: 100%;
+  clear: both;
+  margin-top: 120px;
+  vertical-align: bottom;
+}
+
+
+
+/*------------news----------------*/
+
+.news {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.news p {
+  text-align: left;
+  padding: 0px 100px 10px 100px;
+  border-bottom: 1px dotted #666;
+}
+
+
+/*------------.container----------------*/
+.container {
+  width: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.container h2 {
+  color: #fff;
+  margin-top: 100px;
+  text-decoration: none;
+  background-color: aqua
+}
+
+.container h2 a {text-decoration: none;}
+
+.box1 {
+  width: 33.33%;
+  border: 1px solid #666;
+  height: 200px;
+  margin: 5px;
+  text-align: center;
+  background-image: url(images/fireworks.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box2 {
+  width: 33.33%;
+  border: 1px solid #666;
+  height: 200px;
+  margin: 5px;
+  text-align: center;
+  background-image: url(images/projectionmapping.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box3 {
+  width: 33.33%;
+  border: 1px solid #666;
+  height: 200px;
+  margin: 5px;
+  text-align: center;
+  background-image: url(images/club.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+/*------------.----------------*/
+
+
+
+
+/*------------.footer----------------*/
+
+footer {
+  text-align: center;
+  border-top: 1px solid #666;
+}
